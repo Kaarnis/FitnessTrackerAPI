@@ -8,6 +8,6 @@ import org.springframework.stereotype.Component;
 public class EntityToVoMapper {
 
     public Activity ActivityEntityToVo(ActivityEntity entity) {
-        return new Activity(entity.getActivity(), entity.getStartTime(), entity.getEndTime());
+        return new Activity(entity.getId(), entity.getActivity(), entity.getStartTime(), entity.getEndTime());
     }
 }
