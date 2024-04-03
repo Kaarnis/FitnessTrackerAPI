@@ -17,3 +17,22 @@ To get started with FitnesstrackerAPI, follow these steps:
 
    ```bash
    git clone <repository-url>
+
+Set up the Database:
+
+Ensure you have a SQL database installed (e.g., MySQL, PostgreSQL) and update the application.properties file with your database configurations.
+
+Run the Application:
+
+You can run the application using Maven or your preferred IDE.
+
+Using Maven:
+bash
+Copy code
+mvn spring-boot:run
+Testing:
+
+You can test the API endpoints using tools like Postman or curl. The available endpoints should include routes for managing fitness activities, user profiles, authentication, etc.
+
+Configuration
+The application configuration can be found in the application.properties file, where you can customize properties such as database connection details, server port, security configurations, etc.
