@@ -9,6 +9,11 @@ FitnesstrackerAPI is the backend of a Fitness Tracker application, built using S
 - **Spring Security**: Offers authentication and authorization capabilities to secure your application.
 - **SQL**: Utilized for database management.
 
+- ## Frontend
+
+The frontend part of the Fitness Tracker application can be found [here](https://github.com/Kaarnis/FitnessTrackerFrontEnd). Please make sure to check it out for the complete experience.
+
+
 ## Getting Started
 
 To get started with FitnesstrackerAPI, follow these steps:
